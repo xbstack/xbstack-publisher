@@ -1,0 +1,8 @@
+---
+import Layout from "@layouts/AdminLayout.astro";
+import PublisherConsole from "@features/publisher/components/PublisherConsole.jsx";
+---
+
+<Layout title="Content Publisher">
+  <PublisherConsole client:only="react" />
+</Layout>
